@@ -1,7 +1,7 @@
 # Creating an empty list
 arr = []
 
-# Creating an array with initial elements
+# Creating an list with initial elements
 arr = [1, 2, 3, 4, 5]
 
 
