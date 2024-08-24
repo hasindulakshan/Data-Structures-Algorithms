@@ -1,7 +1,7 @@
-# Creating an empty array
+# Creating an empty list
 arr = []
 
-# Creating an array with initial elements
+# Creating an list with initial elements
 arr = [1, 2, 3, 4, 5]
 
 
@@ -12,7 +12,7 @@ last_element = arr[-1]  # 5
 # Modifying an element at a specific index
 arr[1] = 10  # arr becomes [1, 10, 3, 4, 5]
 
-# Adding an element to the end of the array
+# Adding an element to the end of the list
 arr.append(6)  # arr becomes [1, 10, 3, 4, 5, 6]
 
 # Inserting an element at a specific position
@@ -30,10 +30,10 @@ index_of_4 = arr.index(4)  # 2
 # Counting occurrences of a value
 count_of_6 = arr.count(6)  # 1
 
-# Slicing to get a subarray
+# Slicing to get a sublist
 subArray = arr[1:4]  # [15, 4, 5]
 
-# Iterating through the array
+# Iterating through the list
 for element in arr:
     print(element)
 
@@ -45,14 +45,14 @@ for i, element in enumerate(arr):
 # Reversing the order of elements
 arr.reverse()  # arr becomes [1, 4, 5, 6, 15]
 
-# Concatenating two arrays
+# Concatenating two lists
 arr2 = [7, 8, 9]
 concatenated = arr + arr2  # concatenated becomes [1, 4, 5, 6, 15, 7, 8, 9]
 
-# Checking if an element is in the array
+# Checking if an element is in the list
 exists = 5 in arr  # True
 
-# Creating a shallow copy of the array
+# Creating a shallow copy of the list
 arr_copy = arr.copy()  # arr_copy becomes [1, 4, 5, 6, 15]
 
 
