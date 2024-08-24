@@ -22,4 +22,3 @@ Python-Data-Structures is a comprehensive library that provides implementations 
 </div>
 
 [Download PDF](https://roadmap.sh/pdfs/roadmaps/datastructures-and-algorithms.pdf)
-
