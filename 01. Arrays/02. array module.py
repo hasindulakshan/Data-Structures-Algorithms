@@ -1,5 +1,5 @@
 # ========================================================
-# Section 1: Create an array using array() method
+# Section 1: Create an array using array module
 # ========================================================
 
 import array as Arr
