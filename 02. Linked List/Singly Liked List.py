@@ -108,6 +108,14 @@ class SinglyLinkedList:
             current = current.next
         print("None")
     
+    # Traversal of the linked list
+    def traversal(self):
+        current = self.head
+        while current:
+            print(f"Visited Node: {current.data}")
+            current = current.next
+            
+    
 # usage of the singly linked list
 singly_linked_list = SinglyLinkedList()
 singly_linked_list.insertAtBeginning(10)
@@ -131,6 +139,8 @@ singly_linked_list.display()
 
 singly_linked_list.deleteAtPosition(1)
 singly_linked_list.display() # Output: 15 -> 40 -> 50 -> None
+
+singly_linked_list.traversal() 
 
 
 
