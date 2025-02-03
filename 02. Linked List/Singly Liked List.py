@@ -1,7 +1,7 @@
 # in the singly linked list, each nod contains a data and reference to the next node in the list. Traversal is one-directional, starting from the head node.
 
 # ========================================================================================================
-# Implementing a singly linked list in Python
+# Implementing a singly linked list using Python
 # ========================================================================================================
 
 class Node:
